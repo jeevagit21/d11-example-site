@@ -1,0 +1,22 @@
+uuid: b854a14c-f38f-40fd-89d7-5066638aa68c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - example_radix
+_core:
+  default_config_hash: LQRPMUQJykSQzIXtMoAHrimwSbsLUqjgo-u6b5LAz-w
+id: example_radix_messages
+theme: example_radix
+region: header
+weight: -4
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }
